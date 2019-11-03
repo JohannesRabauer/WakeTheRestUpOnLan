@@ -12,8 +12,6 @@ public class JavaNativeLogger {
 	    static private FileHandler fileTxt;
 	    static private SimpleFormatter formatterTxt;
 
-	    static private FileHandler fileHTML;
-
 	    static public void setup() throws IOException {
 
 	        // get the global logger to configure it
